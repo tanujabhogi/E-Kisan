@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/21/04/46/barley-field-1684052__480.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+    form{
+        width: 400px;
+        margin: auto;
+        padding: 20px;
+        font-size: large;
+        color: rgb(0, 0, 0);
+        
+      }
+      form{
+        font-size: 25px;
+      }
+      h1{
+        text-transform: uppercase;
+        text-align: center;
+      }
+      input[type=tel],
+      input[type=text],
+      select,
+    textarea
+      {
+        width: 100%;
+        font-size: 1rem;
+        padding: 5px;
+      }
+      div{
+        margin-bottom: 10px;
+      }
+      
+      button{
+        display: block;
+        margin: auto;
+        
+        color:white;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: none;
+        font-size: 1.4rem;
+        border-radius: 4px;
+        background-color: rgba(29, 56, 2, 0.703);
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .one{
+        
+      }
+      .two{
+        background-color: blue;
+      }
