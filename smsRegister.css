@@ -1,0 +1,47 @@
+body{
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient(to right,#9be39b,#4ab518,#90EE90);
+    }
+.input-field{
+    border-radius: 6px;
+}
+    form{
+        width: 400px;
+        margin: auto;
+        padding: 20px;
+        font-size: large;
+        color: rgb(0, 0, 0);
+        
+      }
+      form{
+        font-size: 15px;
+        margin: auto;
+      }
+      h1{
+        text-transform: uppercase;
+        text-align: center;
+      }
+      input[type=tel],
+      input[type=text],
+  select,
+textarea
+  {
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  div{
+    margin-bottom: 10px;
+  }
+button{
+    display: block;
+    margin: auto;
+}
+hr{
+    align-items: center;
+    margin-left: 150px;
+}
