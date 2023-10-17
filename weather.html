@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./weather.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>WEATHER FORECAST</h1>
+        <div>
+            <input type="text" name="" id="input" placeholder="Enter city name">
+            <button id="search" onclick="searchByCity()">Search</button></input>
+        </div>
+    </div>
+
+    <main>        
+        <div class="weather ">
+            <!-- <img class="img-icon" src="https://as1.ftcdn.net/v2/jpg/02/23/11/10/1000_F_223111051_PWwu7pba2XMz43L2Owl43NewzdeYnxJ2.jpg" width="10px"> -->
+            <h2 id="city">Hyderabad,IN</h2>
+            <div class="temp-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8rc_xafiDZ0W0HSUSKx_4kFzBARbBOLpIWULOzS_Tw&usqp=CAU&ec=48665699" alt="" id="img">
+                <p id="temperature">29°C</p>
+            </div>
+            <span id="clouds">Clear Skies</span>
+        </div>
+        <!-- <div class="row">
+            <div class="col-4">
+                <img class="img-icon" src="https://as1.ftcdn.net/v2/jpg/02/23/11/10/1000_F_223111051_PWwu7pba2XMz43L2Owl43NewzdeYnxJ2.jpg" width="50px">
+                <h2 id="city">Hyderabad,IN</h2>
+            </div>
+            <div class="col-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8rc_xafiDZ0W0HSUSKx_4kFzBARbBOLpIWULOzS_Tw&usqp=CAU&ec=48665699" alt="" id="img">
+                <p id="temperature">29°C</p>
+            </div>
+        </div> -->
+        <div class="divider1"></div>
+
+        <div class="forecstH">
+            <p class="cast-header">Upcoming forecast</p>
+            <div class="templist">
+
+                <div class="next">
+                    <div>
+                        <p class="time">9.00 AM</p>
+                        <p>29 °C / 28 °C</p>
+                    </div>
+                    <p class="desc">Warm</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">11.00 AM</p>
+                        <p>33 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Sunny</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">1.00 PM</p>
+                        <p>34 °C / 30 °C</p>
+                    </div>
+                    <p class="desc">Mostly Sunny</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">3.00 PM</p>
+                        <p>34 °C / 32 °C</p>
+                    </div>
+                    <p class="desc">Mostly Sunny</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">5.00 PM</p>
+                        <p>32 °C / 29 °C</p>
+                    </div>
+                    <p class="desc">Sunny</p>
+                </div>
+
+                <div class="next">
+                    <div>
+                        <p class="time">7.00 PM</p>
+                        <p>29 °C / 28 °C</p>
+                    </div>
+                    <p class="desc">Cloudy Skies</p>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </main>
+
+    <div class="forecstD">
+        <div class="divider2"></div>
+        <p class="cast-header"> Next 5 days forecast</p>
+        <div class="weekF">
+
+            <div class="dayF">
+                <p class="date">Wed Mar 29 2023</p>
+                <p>35 °C / 22 °C</p>
+                <p class="desc">Mostly Sunny</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Thu Mar 30 2023</p>
+                <p>36 °C / 22 °C</p>
+                <p class="desc">Sunny</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Fri Mar 31 2023</p>
+                <p>35 °C / 21 °C</p>
+                <p class="desc">Sunny</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sat Apr 01 2023</p>
+                <p>35 °C / 21 °C</p>
+                <p class="desc">Mostly Sunny</p>
+            </div>
+
+            <div class="dayF">
+                <p class="date">Sun Jul 03 2022</p>
+                <p>35 °C / 22 °C</p>
+                <p class="desc">Sunny</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
