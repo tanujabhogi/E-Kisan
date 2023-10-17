@@ -1,0 +1,12 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card{
+    width:250px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 7px gray;
+}
+.card-header img{
+    border-radius:50%;
+}
