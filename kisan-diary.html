@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./kisan-diary.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card my-3">
+            <div class="card-header">
+              28-03-2023 ~ <b> Land</b>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p> <b> Farm spraying: </b> <i>-100rs</i></p>
+              </blockquote>
+            </div>
+          </div>
+        <div class="card my-3">
+            <div class="card-header">
+              27-03-2023 ~ <b> Cotton</b>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p> <b> Cotton: </b> <i>+12,000rs</i></p>
+              </blockquote>
+        </div>
+        </div>
+        <div class="card my-3">
+            <div class="card-header">
+              27-03-2023 ~ <b> Tractor</b>
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p> <b> Tractor: </b> <i>-50rs</i></p>
+              </blockquote>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="open-button " data-bs-target="#mod1" data-bs-toggle="modal" onclick="openForm()">Add Expense <i class="fa-solid fa-plus"></i></button>
+    </div>
+    <!-- modal -->
+    <div class="add">
+        <div class="container">
+                        <div class="modal border-success border-rounded " id="mod1">
+                            <div class="modal-dialog ">
+                                <div class="modal-content">
+                                    <div class="modal-header text-center">
+                                        <div>
+                                            <h4 class="fw-semibold lh-sm text-center text-success px-5">Transaction</h4>
+                                            <br>
+                                            <label for="radio">Income</label>
+                                            <input type="radio" name="radio" id="radio">
+                                            <label for="radio">Expense</label>
+                                            <input type="radio" name="radio" id="radio">
+                                        </div>
+                                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body fw-semibold lh-sm text-center text-success">
+                                        <div>
+                                            <label for="date">Date : </label>
+                                            <input type="date" name="date" id="date">
+                                        </div> <br>
+                                        <div>
+                                            <label for="Title">First name : </label>
+                                            <input type="text" name="Title" id="Title" placeholder="Enter your Title here">
+                                        </div> <br>
+                                        <div>
+                                            <label for="amt">Amount (rs) </label>
+                                            <input type="number" name="amt" id="amt" placeholder="Enter amount">
+                                         </div> <br>
+                                         <div>
+                                            <label for="about">Note : </label> <br>
+                                            <textarea name="about" id="about" cols="50" rows="7"></textarea>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
