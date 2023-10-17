@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./storage.css">
+    <title></title>
+</head>
+<body>
+    <h1>Storage Facility</h1>
+    <hr width="70%"  color="white"/>
+    <form>
+        <div>
+            <label for="location">From location</label>
+            <input type="text" name="location" id="location" placeholder="Enter your pick-up location" autocomplete="off" class="input-field"/>
+          </div>
+
+        <div>
+            <label for="telNo">Mobile Number</label>
+            <input id="telNo" name="telNo" type="tel" placeholder="Enter Mobile Number" class="input-field"/>
+        </div>
+        <div>
+            <label for="crop">Select your crop</label>
+            <select name="crop" id="crop">
+              <option value="Paddy">Paddy</option>
+              <option value="Jowar">Jowar</option>
+              <option value="Wheat">Wheat</option>
+              <option value="Ragi">Ragi</option>
+              <option value="Sunflower">Sunflower</option>
+              <option value="Groundnut">Groundnut</option>
+            </select>
+          </div>
+          <div>
+            <label for="Location">Select Loacation</label>
+            <select name="Location" id="Loacation">
+              <option value="Hyderabad">Hyderabad</option>
+              <option value="Nalgonda">Nalgonda</option>
+              <option value="Adilabad">Adilabad</option>
+              <option value="Vishakapatnam">Vishakapatnam</option>
+              <option value="Mahaboobnagar">Mahaboobnagar</option>
+              <option value="Khammam">Khammam</option>
+            </select>
+          </div>
+          <div>
+            <label for="capacity">Capacity(in quintal)</label>
+            <br>
+            <input type="number" name="capacity" id="capacity" placeholder="Enter number of quintals" autocomplete="off" class="input-field" width="300px" height="30px"/>
+        </div>
+          <div>
+              <label for="Days">Days</label>
+              <br>
+              <input type="number" name="Days" id="Days" placeholder="Enter number of Days" autocomplete="off" class="input-field" width="300px" height="30px"/>
+            </div>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Search
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog "style="max-width:80%;">
+                  <div class="modal-content">
+                    <div class="modal-header ">
+                      <h1 class="modal-title fs-5 fw-bold text-success" id="exampleModalLabel">List of Warehouses</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body w-100">
+                            <div class="container text-center">
+                                <br>
+                               
+                                <div class="card mb-3 border-success border-rounded my-3 mx-3" style="max-width: 740px;">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="https://ltcagro.com/wp-content/uploads/2020/10/KASAR-440x325.jpg" class="card-img h-100" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-semibold text-success">KYZ Enterprizes</h5>
+                                          <p class="card-text fw-light text-success lead">Amberpet,Hyderabad</p>
+                                          <p class="card-text fw-light text-success lead">Open 24hrs             30yrs in Bussiness</p>
+                                          <p class="card-text fw-light text-success lead">Price: Starting at rs 16,000/-</p>
+                                          <a href="#" class="btn btn-success">Contact details</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3 border-success border-rounded my-3 mx-3" style="max-width: 740px;">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="https://magarticles.magzter.com/articles/7164/347712/5ce3ddca610a1/Agri-warehousing-Innovations-And-Technologies-For-The-Future.jpg" class="card-img h-100" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-semibold text-success">Safe Storage</h5>
+                                          <p class="card-text fw-light text-success lead">NH-44 kompally,Hyderabad</p>
+                                          <p class="card-text fw-light text-success lead">Open   until 7:00pm        8yrs in Bussiness</p>
+                                          <p class="card-text fw-light text-success lead">Price: Starting at rs 18,000/-</p>
+                                          <a href="#" class="btn btn-success">Contact details</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3 border-success border-rounded my-3 mx-3" style="max-width: 740px;">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="https://www.indiawarehousing.in/wp-content/uploads/2016/04/Agro-Warehouse-at-Rajkot-231.jpg" class="card-img h-100" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h5 class="card-title fw-semibold text-success">Narendra Enterprizes</h5>
+                                          <p class="card-text fw-light text-success lead">Dilshuknagar,Hyderabad</p>
+                                          <p class="card-text fw-light text-success lead">Open 24hrs             14yrs in Bussiness</p>
+                                          <p class="card-text fw-light text-success lead">Price: Starting at rs 10,000/-</p>
+                                          <a href="#" class="btn btn-success">Contact details</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  </div>
+  </form>
+  
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
