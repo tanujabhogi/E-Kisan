@@ -1,0 +1,79 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-image:url("https://navata.com/images/gallery/home/navata-road-transport-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info
+{
+    color: #fefefe;
+    background-color: #1f7952;
+    width: 500px;
+    padding: 2%;
+    opacity: 0.85;
+}
+header {
+	background-color: #004225;
+	color: #fff;
+	padding: 2px;
+}
+
+h1 {
+	margin: 0;
+}
+main {
+	margin: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+ul {
+	margin-top: 0;
+}
+li{
+    font-weight: 1000px;
+}
+button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    display: block;
+    margin: auto;
+}
+
+form{
+    width: 400px;
+   margin: auto;
+   background-color: rgb(142, 150, 37);
+   padding: 30px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select,textarea{
+    width: 100%;
+    font-size: 0.9rem;
+}
+.first{
+    margin-bottom: 20px;
+}
+footer {
+	background-color: #ddd;
+	padding: 10px;
+	text-align: center;
+}
